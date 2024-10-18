@@ -1,0 +1,130 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class ExportJsonHandler {
+
+    public static Map<String, String[]> createExportJsonObject() {
+        Map<String, String[]> exportJsonMap = new HashMap<>();
+
+        // Add all properties except 'redirect'
+        exportJsonMap.put("PERMISSIONS", new String[]{"false"});
+        exportJsonMap.put("endDate", new String[]{"10/17/2024"});
+        exportJsonMap.put("_journal_web-content", new String[]{"true"});
+        exportJsonMap.put("groupId", new String[]{"268611"});
+        exportJsonMap.put("_journal_templates", new String[]{"true"});
+        exportJsonMap.put("LOGO", new String[]{"true"});
+        exportJsonMap.put("_asset_category_categories", new String[]{"true"});
+        exportJsonMap.put("_journal_folders", new String[]{"true"});
+        exportJsonMap.put("mvcRenderCommandName", new String[]{"/export_import/export_layouts"});
+        exportJsonMap.put("_forms_form-entries", new String[]{"true"});
+        exportJsonMap.put("checkboxNames", new String[]{"DELETIONS,THEME_REFERENCE,LOGO,LAYOUT_SET_SETTINGS,LAYOUT_SET_PROTOTYPE_SETTINGS,PORTLET_DATA_com_liferay_document_library_web_portlet_DLAdminPortlet,_document_library_folders,_document_library_documents,_document_library_previews-and-thumbnails,_document_library_referenced-content,_document_library_metadata,PORTLET_DATA_com_liferay_journal_web_portlet_JournalPortlet,_journal_web-content,_journal_referenced-content,_journal_version-history,_journal_structures,_journal_templates,_journal_folders,PORTLET_DATA_com_liferay_asset_tags_admin_web_portlet_AssetTagsAdminPortlet,_asset_tag_tags,PORTLET_DATA_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormAdminPortlet,_forms_forms,_forms_form-entries,PORTLET_DATA_com_liferay_fragment_web_portlet_FragmentPortlet,_fragments_entries,PORTLET_DATA_com_liferay_message_boards_web_portlet_MBAdminPortlet,PORTLET_DATA_com_liferay_template_web_internal_portlet_TemplatePortlet,_template_Search Results Template,_template_Asset Publisher Template,PORTLET_DATA_com_liferay_wiki_web_portlet_WikiAdminPortlet,_wiki_wiki-nodesDisplay,_wiki_wiki-pages,_wiki_referenced-content,PORTLET_DATA_com_liferay_asset_list_web_portlet_AssetListPortlet,_asset_lists_entries,PORTLET_DATA_com_liferay_calendar_web_portlet_CalendarAdminPortlet,_calendar_calendars,_calendar_calendar-resources,PORTLET_DATA_com_liferay_asset_categories_admin_web_portlet_AssetCategoriesAdminPortlet,_asset_category_categories,_asset_category_vocabularies,COMMENTS,RATINGS,PERMISSIONS"});
+        exportJsonMap.put("_journal_referenced-content-behavior", new String[]{"include-always"});
+        exportJsonMap.put("_template_Search Results Template", new String[]{"true"});
+        exportJsonMap.put("_document_library_folders", new String[]{"true"});
+        exportJsonMap.put("endDateMinute", new String[]{"47"});
+        exportJsonMap.put("endDateHour", new String[]{"1"});
+        exportJsonMap.put("_document_library_referenced-content-behavior", new String[]{"include-always"});
+        exportJsonMap.put("LAYOUT_SET_SETTINGS", new String[]{"true"});
+        exportJsonMap.put("_template_Asset Publisher Template", new String[]{"true"});
+        exportJsonMap.put("javax.portlet.action", new String[]{"/export_import/export_layouts"});
+        exportJsonMap.put("endDateAmPm", new String[]{"0"});
+        exportJsonMap.put("PORTLET_DATA_com_liferay_journal_web_portlet_JournalPortlet", new String[]{"false"});
+        exportJsonMap.put("last", new String[]{"12"});
+        exportJsonMap.put("_asset_category_vocabularies", new String[]{"true"});
+        exportJsonMap.put("endDateDay", new String[]{"17"});
+        exportJsonMap.put("formDate", new String[]{"1729129659090"});
+        exportJsonMap.put("PORTLET_DATA_CONTROL_DEFAULT", new String[]{"true"});
+        exportJsonMap.put("privateLayout", new String[]{"false"});
+        exportJsonMap.put("endDateTime", new String[]{"Thu Oct 17 01:47:39 GMT 2024"});
+        exportJsonMap.put("PORTLET_DATA_com_liferay_asset_tags_admin_web_portlet_AssetTagsAdminPortlet", new String[]{"false"});
+        exportJsonMap.put("PORTLET_DATA_com_liferay_asset_list_web_portlet_AssetListPortlet", new String[]{"false"});
+        exportJsonMap.put("treeId", new String[]{"layoutsExportTree268611false"});
+        exportJsonMap.put("_wiki_wiki-nodesDisplay", new String[]{"false"});
+        exportJsonMap.put("PORTLET_DATA_com_liferay_calendar_web_portlet_CalendarAdminPortlet", new String[]{"false"});
+        exportJsonMap.put("name", new String[]{"artestlar"});
+        exportJsonMap.put("_wiki_referenced-content", new String[]{"true"});
+        exportJsonMap.put("RATINGS", new String[]{"true"});
+        exportJsonMap.put("endDateYear", new String[]{"2024"});
+        exportJsonMap.put("cmd", new String[]{"export"});
+        exportJsonMap.put("PORTLET_SETUP_ALL", new String[]{"true"});
+        exportJsonMap.put("startDateMonth", new String[]{"9"});
+        exportJsonMap.put("layoutIds", new String[]{"[\"1\",\"2\",\"4\",\"5\",\"6\",\"7\",\"12\",\"13\",\"14\",\"15\",\"16\",\"17\",\"18\",\"19\",\"20\",\"21\",\"22\",\"34\",\"99\",\"105\",\"44\",\"46\",\"48\",\"113\",\"50\",\"52\"]"});
+        exportJsonMap.put("startDate", new String[]{"10/16/2024"});
+        exportJsonMap.put("startDateMinute", new String[]{"47"});
+        exportJsonMap.put("PORTLET_DATA", new String[]{"true"});
+        exportJsonMap.put("PORTLET_DATA_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormAdminPortlet", new String[]{"false"});
+        exportJsonMap.put("COMMENTS", new String[]{"true"});
+        exportJsonMap.put("range", new String[]{"all"});
+        exportJsonMap.put("_asset_lists_entries", new String[]{"true"});
+        exportJsonMap.put("PORTLET_DATA_com_liferay_template_web_internal_portlet_TemplatePortlet", new String[]{"false"});
+        exportJsonMap.put("startDateDay", new String[]{"16"});
+        exportJsonMap.put("_asset_tag_tags", new String[]{"true"});
+        exportJsonMap.put("_document_library_metadata", new String[]{"true"});
+        exportJsonMap.put("_calendar_calendars", new String[]{"true"});
+        exportJsonMap.put("PORTLET_DATA_com_liferay_fragment_web_portlet_FragmentPortlet", new String[]{"false"});
+        exportJsonMap.put("PORTLET_ARCHIVED_SETUPS_ALL", new String[]{"true"});
+        exportJsonMap.put("PORTLET_CONFIGURATION_ALL", new String[]{"true"});
+        exportJsonMap.put("startTime", new String[]{"01:47 AM"});
+        exportJsonMap.put("_document_library_referenced-content", new String[]{"true"});
+        exportJsonMap.put("liveGroupId", new String[]{"268611"});
+        exportJsonMap.put("exportImportConfigurationId", new String[]{"0"});
+        exportJsonMap.put("_document_library_documents", new String[]{"true"});
+        exportJsonMap.put("startDateHour", new String[]{"1"});
+        exportJsonMap.put("_journal_version-history", new String[]{"true"});
+        exportJsonMap.put("THEME_REFERENCE", new String[]{"true"});
+        exportJsonMap.put("exportLAR", new String[]{"true"});
+        exportJsonMap.put("_wiki_wiki-nodes", new String[]{"false"});
+        exportJsonMap.put("PORTLET_DATA_com_liferay_asset_categories_admin_web_portlet_AssetCategoriesAdminPortlet", new String[]{"false"});
+        exportJsonMap.put("_journal_referenced-content", new String[]{"true"});
+        exportJsonMap.put("_wiki_wiki-pages", new String[]{"true"});
+        exportJsonMap.put("_calendar_calendar-resources", new String[]{"true"});
+        exportJsonMap.put("_document_library_previews-and-thumbnails", new String[]{"true"});
+        exportJsonMap.put("startDateTime", new String[]{"Wed Oct 16 01:47:39 GMT 2024"});
+        exportJsonMap.put("_fragments_entries", new String[]{"true"});
+        exportJsonMap.put("_journal_structures", new String[]{"true"});
+        exportJsonMap.put("_forms_forms", new String[]{"true"});
+        exportJsonMap.put("PORTLET_DATA_com_liferay_wiki_web_portlet_WikiAdminPortlet", new String[]{"false"});
+        exportJsonMap.put("PORTLET_DATA_com_liferay_message_boards_web_portlet_MBAdminPortlet", new String[]{"false"});
+        exportJsonMap.put("PORTLET_USER_PREFERENCES_ALL", new String[]{"true"});
+        exportJsonMap.put("endTime", new String[]{"01:47 AM"});
+        exportJsonMap.put("startDateYear", new String[]{"2024"});
+        exportJsonMap.put("PORTLET_DATA_com_liferay_document_library_web_portlet_DLAdminPortlet", new String[]{"false"});
+        exportJsonMap.put("DELETIONS", new String[]{"false"});
+        exportJsonMap.put("LAYOUT_SET_PROTOTYPE_SETTINGS", new String[]{"true"});
+        exportJsonMap.put("startDateAmPm", new String[]{"0"});
+        exportJsonMap.put("endDateMonth", new String[]{"9"});
+
+        return exportJsonMap;
+    }
+ public static Map<String, String[]> createimportJsonObject() {
+        
+		Map<String, String[]> params = new HashMap<>();
+		
+params.put("LAYOUT_SET_SETTINGS", new String[] { "true" });
+params.put("DELETE_PORTLET_DATA", new String[] { "false" });
+params.put("javax.portlet.action", new String[] { "/export_import/import_layouts" });
+params.put("THEME_REFERENCE", new String[] { "true" });
+params.put("PERMISSIONS", new String[] { "false" });
+params.put("formDate", new String[] { "1729172208791" });
+params.put("groupId", new String[] { "9659513" });
+params.put("LOGO", new String[] { "true" });
+params.put("privateLayout", new String[] { "false" });
+params.put("mvcRenderCommandName", new String[] { "viewImport" });
+params.put("USER_ID_STRATEGY", new String[] { "CURRENT_USER_ID" });
+params.put("checkboxNames", new String[] { "LOGO,LAYOUT_SET_SETTINGS,LAYOUT_SET_PROTOTYPE_SETTINGS,DELETE_MISSING_LAYOUTS,THEME_REFERENCE,DELETE_PORTLET_DATA,DELETIONS,PERMISSIONS" });
+params.put("LAYOUT_SET_PROTOTYPE_LINK_ENABLED", new String[] { "true" });
+params.put("PORTLET_ARCHIVED_SETUPS_ALL", new String[] { "true" });
+params.put("PORTLET_USER_PREFERENCES_ALL", new String[] { "true" });
+params.put("PORTLET_CONFIGURATION_ALL", new String[] { "true" });
+params.put("DATA_STRATEGY", new String[] { "DATA_STRATEGY_MIRROR" });
+params.put("cmd", new String[] { "import" });
+params.put("PORTLET_SETUP_ALL", new String[] { "true" });
+params.put("DELETIONS", new String[] { "false" });
+params.put("LAYOUT_SET_PROTOTYPE_SETTINGS", new String[] { "true" });
+params.put("DELETE_MISSING_LAYOUTS", new String[] { "false" });
+
+		
+	return params;
+}	
+	
+    
